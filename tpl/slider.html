@@ -1,0 +1,28 @@
+<{if $xoops_dirname == "system"}>
+<div id="myCarousel" class="carousel slide slideshow" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+<li data-slide-to="1" data-target="#myCarousel" class=""></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active"> <img alt="XOOPS" src="<{$xoops_imageurl}>images/slider_n1.jpg">
+    <div class="carousel-caption hidden-xs">
+      <h1>Happy holidays!</h1>
+      <p>Even though it's February. Break the system!
+</p>
+      <p><a href="javascript:;" class="btn btn-large btn-primary"><{$smarty.const.THEME_READMORE}></a></p>
+    </div>
+</div>
+<div class="item"> <img alt="XOOPS" src="<{$xoops_imageurl}>images/slider_n2.jpg">
+    <div class="carousel-caption hidden-xs">
+      <h1>From ruins, something new can grow.</h1>
+      <p>As it lies in ruins, it feeds something new, something fragile that needs to grow. It might be slain, but not dead. Things like these never die.</p>
+      <p><a href="javascript:;" class="btn btn-large btn-primary"><{$smarty.const.THEME_READMORE}></a></p>
+    </div>
+</div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+<a data-slide="next" href="#myCarousel" class="right carousel-control"><span class="icon-next"></span></a>
+</div><!-- .carousel -->
+<{/if}>
