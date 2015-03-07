@@ -312,7 +312,7 @@ div.order-by a { color: #999; font-size: 1.2em; }
     Github:             https://github.com/kevjoe
     Email               kevin@kevjoe.be
 */
-.global-nav { background: #1E5078 !important; height: 81px; margin-top: 0; padding-top: 18px; font-family: Average Sans ; }
+.global-nav { background: #1E5078 !important; height: 81px; margin-top: 0; padding-top: 18px; font-family: Average Sans; }
 .navbar button { background-color: #39A05C; border: 1px solid #1B5930; }
 body { background: #EBEBEB; }
 .maincontainer { background: #FFFFFF; margin-top: 0; padding-top: 20px; border: 1px solid #CBCBCB; font-family: Average Sans; }
@@ -331,6 +331,5 @@ button { border-radius: 0px !important; }
 .loginform h4 { background-color: #1E5078; padding: 9px; font-weight: bold; color: #F0FFFF; font-size: 17px !important; text-shadow: -1px -1px #121212; }
 h4.block-title { background-color: #1E5078; padding: 9px; font-weight: bold; color: #F0FFFF !important; font-size: 17px !important; text-shadow: -1px -1px #121212; }
 .xoops-blocks h4 { background-color: #1E5078; padding: 6px 9px; font-weight: bold; color: #F0FFFF !important; font-size: 17px !important; text-shadow: -1px -1px #121212; }
-.nav-pills.nav-stacked li { height: 28px; }
-.nav-pills.nav-stacked li { height: 28px; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #FFF; background-color: rgba(30, 80, 120, 0.685); }
+.mainNav li { margin: 5px; }
